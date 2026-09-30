@@ -19,7 +19,7 @@ This is version 2.0.0 (`versionCode 34`), package `com.shabp.rokid.intervalrecor
 
 Recording starts after permissions are granted. MARK preserves the moments around a press; PAUSE/RESUME controls recording; STOP opens the save menu. Free mode offers the 3-minute interval option. Pro adds MARK, Total Recall, Marked only, 1-minute and 5-minute interval options. Finished videos appear in `Movies/Camera`.
 
-The Pro screen displays the glasses' activation code. Visit [SmartCam activation](https://smartcam-activation.shabp.chatgpt.site/) to purchase Pro for that code. During the current device test, checkout uses **Paddle sandbox**. Test transactions are not commercial purchases.
+The Pro screen displays the glasses' activation code. Visit [SmartCam activation](https://smartcam-pro.pages.dev/) to purchase Pro for that code. During the current device test, checkout uses **Paddle sandbox**. Test transactions are not commercial purchases.
 
 The app checks license status at startup, on foreground resume, and roughly every minute while open. When the server reports a refund, it removes the cached Pro license and returns to Free mode. The vPro label indicates an active license; it is not a reset button.
 
