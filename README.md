@@ -1,32 +1,30 @@
 # SmartCam for Rokid AI Glasses
 
-SmartCam is a hands-free rolling video recorder for Rokid AI Glasses. The free mode keeps short interval clips; Pro adds MARK and additional save options. This public repository contains the installable APK and documentation only. The application source code remains private.
+SmartCam is a hands-free video recorder for Rokid AI Glasses. It joins your chosen clips into one video. This repository distributes the signed Android APK and installation guide.
 
 ## Download and install
 
-Download [SmartCam-Freemium-v2.0.0.apk](SmartCam-Freemium-v2.0.0.apk) (SHA-256: `ca76b5d57a2d70451392cec0686ef2719c2811530831b0235b5adfc4e3c31799`).
+Download [SmartCam-Freemium-v2.2.7.apk](SmartCam-Freemium-v2.2.7.apk) (SHA-256 `9c402a4eda59a71b695bf77f49e3e0d32b417f7c2313598c8f7e1941e918ad57`).
 
 Enable developer/ADB access on the glasses, connect them, and run:
 
 ```sh
 adb devices
-adb install -r SmartCam-Freemium-v2.0.0.apk
+adb install -r SmartCam-Freemium-v2.2.7.apk
 ```
 
-This is version 2.0.0 (`versionCode 34`), package `com.shabp.rokid.intervalrecorder`. It uses the same signing certificate as beta15, so `adb install -r` updates the installed app while retaining its data. Camera and microphone permissions are requested on first launch.
+This is version 2.2.7 (`versionCode 43`), package `com.shabp.rokid.intervalrecorder`. It uses the original SmartCam signing certificate, so an in-place update retains app data. Grant camera and microphone permissions when prompted.
 
-## Use
+## Free and Pro
 
-Recording starts after permissions are granted. MARK preserves the moments around a press; PAUSE/RESUME controls recording; STOP opens the save menu. Free mode offers the 3-minute interval option. Pro adds MARK, Total Recall, Marked only, 1-minute and 5-minute interval options. Finished videos appear in `Movies/Camera`.
+- **Free** includes Constant Recording and five-second clips every minute. Use NOW to capture an extra clip in timed mode.
+- **Pro** adds MARK, Total Recall, Marked only, more interval choices, Chill or Upbeat music, and 3× export at 30 fps. Total Recall saves roughly the last three minutes in full plus earlier highlights.
+- Saved videos appear in `Movies/Camera`. SmartCam trims the opening second of playback on save to skip the camera fade-in. Very short clips retain enough footage to play.
 
-The Pro screen displays the glasses' activation code. Visit [SmartCam activation](https://smartcam-pro.pages.dev/) to purchase Pro for that code. During the current device test, checkout uses **Paddle sandbox**. Test transactions are not commercial purchases.
-
-The app checks license status at startup, on foreground resume, and roughly every minute while open. When the server reports a refund, it removes the cached Pro license and returns to Free mode. The vPro label indicates an active license; it is not a reset button.
+To activate Pro, enter the code on the glasses' Pro screen at [SmartCam activation](https://smartcam-pro.pages.dev/). Checkout currently uses Paddle sandbox for testing. Test transactions do not charge real money.
 
 ## Compatibility and privacy
 
-Designed for Rokid AI Glasses with sideloading enabled. Video and audio are recorded and saved on the glasses; SmartCam does not upload recordings. Internet access is used to check activation.
+Designed for Rokid AI Glasses with sideloading enabled. Video and audio stay on the glasses. Internet access is used to check activation.
 
-## Distribution
-
-Copyright © 2026 ShaBP. SmartCam is proprietary software. This repository distributes the signed APK for installation and testing; no source code or open-source license is provided.
+Copyright © 2026 ShaBP. SmartCam is proprietary software.
