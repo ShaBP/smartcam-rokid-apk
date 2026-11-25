@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">SmartCam save and export menu</title>
+  <desc id="desc">Representative SmartCam export screen showing music choice, 3x acceleration, save, discard and back controls.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="38%" r="80%"><stop stop-color="#163d4c"/><stop offset=".55" stop-color="#081820"/><stop offset="1" stop-color="#020609"/></radialGradient>
+    <linearGradient id="accent" x1="0" x2="1"><stop stop-color="#15c6dc"/><stop offset="1" stop-color="#3986ff"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity=".5"/></filter>
+  </defs>
+  <rect width="1200" height="675" rx="30" fill="url(#bg)"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#fff" filter="url(#shadow)">
+    <text x="54" y="62" font-size="27" font-weight="700">SMARTCAM <tspan fill="#68e5ff">PRO</tspan></text>
+    <text x="600" y="91" text-anchor="middle" font-size="36" font-weight="700">SAVE VIDEO</text>
+    <text x="600" y="128" text-anchor="middle" font-size="21" fill="#b8d5df">Choose how the finished edit is exported</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700">
+    <rect x="282" y="164" width="636" height="68" rx="16" fill="#101f27" stroke="#4d6b77" stroke-width="2"/>
+    <rect x="308" y="185" width="27" height="27" rx="5" fill="url(#accent)"/><path d="M315 198 l7 7 14-17" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="360" y="207" fill="#fff">WITH MUSIC</text><text x="883" y="207" fill="#77e6f7" text-anchor="end">ON</text>
+    <rect x="282" y="246" width="636" height="68" rx="16" fill="#101f27" stroke="#4d6b77" stroke-width="2"/>
+    <circle cx="322" cy="280" r="13" fill="#2e4854" stroke="#8ab6c5" stroke-width="2"/><circle cx="322" cy="280" r="6" fill="#69e6ff"/>
+    <text x="360" y="289" fill="#fff">CHILL MUSIC</text>
+    <rect x="282" y="328" width="636" height="68" rx="16" fill="#101f27" stroke="#4d6b77" stroke-width="2"/>
+    <circle cx="322" cy="362" r="13" fill="#2e4854" stroke="#8ab6c5" stroke-width="2"/>
+    <text x="360" y="371" fill="#fff">UPBEAT MUSIC</text>
+    <rect x="282" y="410" width="636" height="68" rx="16" fill="#123643" stroke="#5fe6f5" stroke-width="2"/>
+    <rect x="308" y="431" width="27" height="27" rx="5" fill="url(#accent)"/><path d="M315 444 l7 7 14-17" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="360" y="453" fill="#fff">ACCELERATE ×3</text><text x="883" y="453" fill="#77e6f7" text-anchor="end">01:42</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" text-anchor="middle" filter="url(#shadow)">
+    <rect x="281" y="513" width="273" height="67" rx="16" fill="url(#accent)"/><text x="417" y="555" fill="#fff">SAVE VIDEO</text>
+    <rect x="570" y="513" width="169" height="67" rx="16" fill="#8f2430" stroke="#ff9aa4"/><text x="655" y="555" fill="#fff">DISCARD</text>
+    <rect x="755" y="513" width="163" height="67" rx="16" fill="#1b2a31" stroke="#6f8d99"/><text x="836" y="555" fill="#fff">BACK</text>
+    <text x="600" y="628" fill="#9ebbc5" font-size="18" font-weight="400">Music is mixed into one finished video • Accelerated exports are saved at 30 fps</text>
+  </g>
+</svg>
