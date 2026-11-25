@@ -6,6 +6,14 @@ Instead of filling the library with many short interval clips, SmartCam records 
 
 [Download SmartCam or activate Pro](https://smartcam-pro.pages.dev/)
 
+## SmartCam in action
+
+<p align="center">
+  <img src="assets/smartcam-dolomites-preview.png" alt="Four green SmartCam interface views over a Dolomites hiking trail: recording modes, Total Recall, live recording controls, and export settings" width="720">
+</p>
+
+*SmartCam interface preview with an edited outdoor background.*
+
 ## How it works
 
 1. **Start recording.** SmartCam records in one-minute background segments.
