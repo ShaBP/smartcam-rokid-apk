@@ -4,7 +4,7 @@
 
 Instead of filling the library with many short interval clips, SmartCam records in the background and combines the selected moments automatically. You can mark highlights while they happen, recover recent moments after they happen with Total Recall, add music, or create a smooth 3× accelerated edit.
 
-[Download SmartCam](SmartCam-Freemium-v2.2.7.apk) · [Activate SmartCam Pro](https://smartcam-pro.pages.dev/)
+[Download SmartCam or activate Pro](https://smartcam-pro.pages.dev/)
 
 ## Interface
 
@@ -58,7 +58,7 @@ The soundtrack runs continuously across cuts and is fitted to the final video's 
 
 ## Download and install
 
-Download **[SmartCam-Freemium-v2.2.7.apk](SmartCam-Freemium-v2.2.7.apk)**.
+Download the APK from the SmartCam website linked above.
 
 - Version: **2.2.7**
 - Version code: **43**
@@ -78,7 +78,7 @@ Use `adb install -r` when updating an existing SmartCam installation. This APK u
 
 1. Open SmartCam's **Pro** screen on the glasses.
 2. Note the device activation code.
-3. Open **[smartcam-pro.pages.dev](https://smartcam-pro.pages.dev/)** on a phone or computer.
+3. Open the SmartCam website linked above on a phone or computer.
 4. Enter the code and complete the one-time purchase.
 5. Return to SmartCam; activation is detected automatically.
 
