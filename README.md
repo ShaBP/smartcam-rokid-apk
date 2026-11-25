@@ -6,20 +6,6 @@ Instead of filling the library with many short interval clips, SmartCam records 
 
 [Download SmartCam or activate Pro](https://smartcam-pro.pages.dev/)
 
-## Interface
-
-<p align="center">
-  <img src="assets/smartcam-recording.svg" alt="SmartCam recording screen with MARK, PAUSE and STOP controls" width="92%">
-</p>
-
-<p align="center"><em>Record hands-free and press MARK when something worth keeping happens.</em></p>
-
-<p align="center">
-  <img src="assets/smartcam-save-menu.svg" alt="SmartCam music and accelerated export menu" width="92%">
-</p>
-
-<p align="center"><em>Finish the recording as one video, optionally with music or 3× acceleration.</em></p>
-
 ## How it works
 
 1. **Start recording.** SmartCam records in one-minute background segments.
