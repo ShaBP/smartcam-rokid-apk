@@ -21,7 +21,7 @@ This is version 2.2.7 (`versionCode 43`), package `com.shabp.rokid.intervalrecor
 - **Pro** adds MARK, Total Recall, Marked only, more interval choices, Chill or Upbeat music, and 3× export at 30 fps. Total Recall saves roughly the last three minutes in full plus earlier highlights.
 - Saved videos appear in `Movies/Camera`. SmartCam trims the opening second of playback on save to skip the camera fade-in. Very short clips retain enough footage to play.
 
-To activate Pro, enter the code on the glasses' Pro screen at [SmartCam activation](https://smartcam-pro.pages.dev/). Checkout currently uses Paddle sandbox for testing. Test transactions do not charge real money.
+To activate Pro, enter the code on the glasses' Pro screen at [SmartCam activation](https://smartcam-pro.pages.dev/). SmartCam Pro is a one-time purchase. The limited-time launch price is $4.99 USD.
 
 ## Compatibility and privacy
 
